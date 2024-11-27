@@ -36,7 +36,7 @@ def highlightFace(net, frame, conf_threshold=0.7):
 
 
 st.write("""
-    # Age Detection and Gender Recognition
+    ##Age Detection and Gender Recognition
     """)
 
 st.write("## Upload a picture that contains a face")
