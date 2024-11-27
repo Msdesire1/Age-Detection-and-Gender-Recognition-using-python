@@ -3,8 +3,7 @@ import numpy as np
 from PIL import Image
 import streamlit as st
 import cv2
-from OpenGL.GL import *
-from OpenGL.GLUT import *
+
 
 hide_streamlit_style = """
             <style>
@@ -36,7 +35,7 @@ def highlightFace(net, frame, conf_threshold=0.7):
 
 
 st.write("""
-    ##Age Detection and Gender Recognition
+    #Age Detection and Gender Recognition
     """)
 
 st.write("## Upload a picture that contains a face")
